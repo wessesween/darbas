@@ -1,0 +1,147 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    position: relative;
+    margin-top: auto;
+   
+    padding: 20px 200px ;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.keliauk img{
+    height: 15px ;
+    width: 122px ;
+}
+
+.link a{
+    font-size: 16px;
+    color:#1B6BED;
+    text-decoration: none;
+    margin-left: 40px;
+    font-weight: 700;
+}
+.link a:hover{
+    text-decoration: underline;
+}
+/* --------------------------------------------------------- */
+.picture{
+    background-image: url(images/garden.jpg);
+    height: 290px;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+   
+}
+.picture h1{
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 124px;
+    font-weight: 700;
+    color: #fff;
+}
+/* ---------------------------------------------------------- */
+.info{
+    margin: 40px;
+    background-color: white;
+    padding: 20px 40px;
+    width: 580px ;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+.info-1{
+    font-weight: 700;
+
+}
+.blue{
+    color: #1B6BED;
+}
+.map-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.map-info img{
+    width: 660px;
+    height: 320px;
+    padding: 0 0 20px;
+}
+
+
+
+/* ---------------bottom------------------------- */
+.bottom{
+    background-color: #11224D;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    }
+    .apatinis{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 200px;
+    }
+    .con{
+    text-align: start;
+    padding:  0 40px ;
+      
+    }
+    .con p{
+    margin-top: 10px;
+    }
+    .con img{
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+    }
+  
+    .icon{
+    display: flex;
+    gap: 15px;
+    padding-top: 30px;
+    }
+    .icon img{
+    width: 48px;
+    height: 48px;
+    }
+    .navigacija, .kontaktai {
+    flex: 1;
+    padding: 0 40px;
+    text-align: left;  
+    }
+    .navigacija a, .kontaktai a {
+    color: white; 
+    text-decoration: none; 
+      
+    }
+    
+    .navigacija h4, .kontaktai h4 {
+    margin: 0;
+    font-size: 18px;
+    }
+    
+    .navigacija ul, .kontaktai ul {
+    list-style: none;
+    padding: 0;
+    }
+   
+    .navigacija li, .kontaktai li {
+     margin-bottom: 10px;
+    }
+    .apatinis-text {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #DCF2ED;
+    }

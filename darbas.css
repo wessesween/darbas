@@ -1,0 +1,329 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.nav{
+  position: relative;
+  margin-top: auto;
+   
+  padding: 20px 200px ;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.keliauk img{
+  height: 15px ;
+  width: 122px ;
+ 
+}
+
+.link a{
+  font-size: 16px;
+  color:#1B6BED;
+  text-decoration: none;
+  margin-left: 40px;
+  font-weight: 700;
+}
+.link a:hover{
+  text-decoration: underline;
+}
+/* ------------------------picture with text------------------- */
+
+.picture{
+  background-image: url(9fe8a2f8cbf05ee6d21002fe5d546eec.png);
+  position: relative;
+  background-size: cover ;
+  width: 100%;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    
+}
+
+.tekstas{
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    
+}
+.tekstas h1{
+  color: white;
+  font-weight: 700;
+  font-size: 96px;
+  margin: 0;
+    
+}
+.tekstas p{
+  color: white;
+  font-weight: 300;
+  font-size: 36px;
+}
+.tekstas button{
+  background: linear-gradient(180deg, #00D4E4 , #1F59EE);
+  border-radius: 30px;
+  color: white;
+  padding: 15px 30px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+}
+/* -------------------tekstas-------------------- */
+.text{
+  margin: 60px;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+   
+}
+img{
+  width: 64px;
+  height: 64px;
+}
+/* ------------------------carousel:_) ------------------- */
+.apr{
+  background-color: white;
+  width: 400px;
+  padding: 20px;
+  margin: 50px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+.mis{
+  display: flex;
+  justify-content: center;
+  padding: 0 0 50px 0;
+}
+.lop {
+    max-width: 700px;
+  
+}
+.carousel-item img{
+  width: 700px;
+    height: 600px;
+    object-fit: cover;
+}
+
+.aprs h4{
+  color: #888;
+  font-weight: 600;
+}
+.aprs h4{
+  padding: 40px 0px;
+}
+.knp1{
+  height: 17px;
+  width: 14px;
+}
+.knp2{
+  height: 17px;
+  width: 14px;
+}
+.vie{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.apie{
+  margin: 0 0 40px 10px;
+}
+.knopki{
+  background: linear-gradient(180deg, #00D4E4 , #1F59EE);
+  border-radius: 30px;
+  color: white;
+  padding: 15px 30px;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  margin: 10px;
+}
+
+
+/* ----------------------statistic------------------------ */
+.ketvirtas{
+  background-image: url(d3bd0daf16f11bbd8f583b96605d33d4.png);
+  position: relative;
+  background-size: cover ;
+  background-attachment: local;
+  width: 100%;
+  height: 700px;
+  display: flex;
+  align-items: center;
+}
+.board-container {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 40px;
+  background-color: white;
+    
+  display: flex;
+}
+.description {
+  text-align: left;
+  margin-bottom: 40px;
+  padding: 45px;
+}
+.description h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333 ;
+  margin-bottom: 10px;
+    
+}
+.description p {
+  font-size: 16px;
+  font-weight: 300;
+  color: #888;
+}
+.stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 20px;
+  text-align: left;
+}
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+    
+  padding-left: 0px;
+}
+.stat-item .number {
+  font-size: 36px;
+  font-weight: bold;
+  color: #1F59EE; 
+  margin-bottom: 5px;
+}
+.stat-item .label {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 5px;
+}
+.stat-item p {
+  font-size: 14px;
+  font-weight: 300;
+  color: #888;
+  margin: 0;
+}
+/* ---------korteles----------------- */
+.page-container {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white;
+  text-align: center;
+} 
+  .title {
+  font-size: 24px;
+  padding: 20px 0px;
+  color: black;
+  text-align: left;
+  margin-bottom: 30px;
+}
+  
+  .grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 60px;
+}
+  
+  .grid-item {
+  position: relative;
+  background-color:white;
+  overflow: hidden;
+  text-align: center;
+}
+  
+  .grid-item img {
+  width: 100%;
+   height: 200px;
+  object-fit: cover;
+ }
+  
+  .grid-item p {
+  margin: 0;
+  font-size: 16px;
+  text-align: start;
+  color: white;
+  position: absolute;
+  bottom: 1px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0 0 30px 5px;
+  width: 100%;
+  height: 10%; 
+  }
+
+  /* -------------------bottom------------------- */
+  
+  .bottom{
+  background-color: #11224D;
+  color: white;
+  padding: 40px;
+  text-align: center;
+  }
+  .apatinis{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 200px;
+  }
+  .con{
+  text-align: start;
+  padding:  0 40px ;
+    
+  }
+  .con p{
+  margin-top: 10px;
+  }
+  .con img{
+  width: 200px;
+  height: auto;
+  margin-bottom: 10px;
+  }
+
+  .icon{
+  display: flex;
+  gap: 15px;
+  padding-top: 10px;
+  }
+  .icon img{
+  width: 48px;
+  height: 48px;
+  }
+  .navigacija, .kontaktai {
+  flex: 1;
+  padding: 0 40px;
+  text-align: left;  
+  }
+  .navigacija a, .kontaktai a {
+  color: white; 
+  text-decoration: none; 
+    
+  }
+  
+  .navigacija h4, .kontaktai h4 {
+  margin: 0;
+  font-size: 18px;
+  }
+  
+  .navigacija ul, .kontaktai ul {
+  list-style: none;
+  padding: 0;
+  }
+ 
+  .navigacija li, .kontaktai li {
+  margin-bottom: 10px;
+  }
+  .apatinis-text {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #DCF2ED;
+  }
